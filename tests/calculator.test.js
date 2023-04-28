@@ -15,7 +15,7 @@ describe("Test the add path", () => {
     });
 });
 
-describe("Test the add logic", () => {
+describe("Test the good add logic", () => {
     test("It should respond with '7'", async () => {
       const response = await request(app).get("/calc/add/5/2");
       expect(response.body).toBe('7');
