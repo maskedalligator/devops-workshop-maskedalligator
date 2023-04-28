@@ -1,0 +1,10 @@
+name: OpsDev-CI
+on: [push]
+    branches:
+      [main]
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+     
