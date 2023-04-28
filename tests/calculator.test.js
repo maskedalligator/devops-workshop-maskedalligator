@@ -8,7 +8,7 @@ describe("Test if frontend server works", () => {
     });
 });
 
-describe("Test the add path", () => {
+describe("Test the super add path", () => {
     test("It should response the GET method", async () => {
       const response = await request(app).get("/calc/add/1/2");
       expect(response.statusCode).toBe(200);
