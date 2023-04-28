@@ -53,7 +53,7 @@ _What exactly is Dockerhub? What can we use it for? Document your findings in so
 _Create a new repository on dockerhub. Name it opsdev-calculator. Make sure the repository is set to public. Copy paste your link below:
 
 ```
-https://hub.docker.com/r/YOURURL
+https://hub.docker.com/repository/docker/maskedalligator/opsdev-calculator/general
 ```
 
 
