@@ -1,4 +1,4 @@
-https://github.com/example/my-repo/actions/workflows/Artan_Rexhepi-OpsDev-CI.yml.yml/badge.svg
+![OpsDev CI](https://github.com/Hagenberg-DevOps-And-Secure-Coding/devops-workshop-maskedalligator/actions/workflows/Artan_Rexhepi-OpsDev-CI.yml/badge.svg)
 
 # Lab DevOps
 `Add the badge here (see assignment below)`
