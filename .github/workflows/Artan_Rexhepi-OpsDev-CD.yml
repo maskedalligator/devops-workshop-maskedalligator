@@ -29,8 +29,8 @@ jobs:
     - name: Discord notification
       env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      uses: Ilshidur/action-discord@master
+      uses: Ilshidur/action-discord@0.3.2
       with:
-        args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+        args: 'A new Docker image has been built and pushed to DockerHub for the project {{ EVENT_PAYLOAD.repository.full_name }}.'
     
 
