@@ -1,4 +1,4 @@
-name: OpsDev-CI
+name: OpsDev-CD
 on:
   push:
     branches:
